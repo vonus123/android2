@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tbc"
+    tools:context="com.example.w9633.tablelayout.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Open                               Ctrl+O"
+        android:textColor="@color/textcolor"
+        android:textSize="30dp" />
+
+    <TextView
+        android:text="Save                                Ctrl+S"
+        android:layout_width="wrap_content"
+        android:textColor="@color/textcolor"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Save as                   Ctrl+Shift+S"
+        android:textColor="@color/textcolor"
+        android:textSize="30dp" />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        />
+    <TextView
+        android:text="Import"
+        android:textColor="@color/textcolor"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"/>
+    <TextView
+        android:text="Export                            Ctrl+E"
+        android:textColor="@color/textcolor"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        />
+    <TextView
+        android:text="Quit"
+        android:textColor="@color/textcolor"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"/>
+</TableLayout>
